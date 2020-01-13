@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 최적의 음식점 찾기
+> 현재위치와 음식종류 그리고 +a 로 최적의 음식점을 찾아보자  
+> 2020-01-06 첫 작성, 최대 일주일간 아이디어만 내볼 것  
+> 2020-01-11 추가작성  
+> 2020-01-13 시작예정  
 
-## Available Scripts
+## 1. 계기
+  - 나는 퇴근하고 그분과 함께 무엇을 먹으면 좋을지 생각이 나지 않는다.
+  - 미리 생각안하고 계획없다고 혼이 난다.
+  - 그래도 난 업무시간엔 생각할 수 없다! 개발을 열심히!
+  - 지금도 혼나고 먼길 돌아와 공부할겸 한번 만들어본다.
+  - 간단하게
 
-In the project directory, you can run:
+## 2. 사용기술
+  - Front-end : React
+  - Back-end : Spring boot
+  - AWS 
+  - Docker
+  - 네이버 클라우드 플랫폼 Maps
+  - 사실 모든것이 처음이다. 이번 토이프로젝트로 사용해보고 싶었던 기술을 모두 건드려보기만해도 핵이득.
 
-### `npm start`
+## 2.5 추가 생각
+ - 모두 새로 접하는 기술이기 때문에 Study Log 작성하기
+ - 꾸준하게 + 데드라인 잡기
+    - 벌써 오랜만에 들어옴. 그래서 꾸준함을 위해 날짜나 시간을 정할 필요가 있음.
+    - 주중 2번, 주말은 들여다볼 것
+    - 1차 데드라인 : 4/30
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 3. 기능
+  - 가. 현위치 또는 위치검색으로 시작
+  - 나. 원하는 음식 종류 필터링 또는 선정
+  - 다. 음식점 선택
+    - 블로그 서칭
+    - 길찾기 안내
+  - 라. 추천 음식점
+    - 날씨와 거리를 고려
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  - 만다라트 계획표
+    - 음식을 좀더 세부적으로 구분가능한지 서칭
+    - 너무 딱딱한 느낌이 들 수 있음
 
-### `npm test`
+  - 부가 기능
+    - 음식점 평가 기능
+    - 일일 검색 순위
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# ReactJS 준비물
+1. 세팅
+ - [node.js 설치](https://nodejs.org/ko/)(npm)
+ - npx 설치(npm install npx -g)
+ - Git
+ - VScode
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. 생성 및 실행
+ - `cd git/Repository/tell-me-what-u-want`
+ - `npx create-react-app tell-me-what-u-want`
+ - Open Folder
+ - `npm start`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+3. 
