@@ -52,8 +52,11 @@
 
 2. 생성 및 실행
  - `cd git/Repository/tell-me-what-u-want`
+ - `git init`
+ - `git remote add`  
+
  - `npx create-react-app tell-me-what-u-want`
- - Open Folder
+ - In VScode `Open Folder`
  - `npm start`
 
 3. 
