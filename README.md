@@ -51,12 +51,11 @@
  - VScode
 
 2. 생성 및 실행
- - `cd git/Repository/tell-me-what-u-want`
- - `git init`
- - `git remote add`  
-
  - `npx create-react-app tell-me-what-u-want`
  - In VScode `Open Folder`
  - `npm start`
 
-3. 
+ - `git init`
+ - `git remote add`
+
+3. JPX와 컴포넌트 기반 동작
