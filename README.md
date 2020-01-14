@@ -58,4 +58,7 @@
  - `git init`
  - `git remote add`
 
-3. JPX와 컴포넌트 기반 동작
+3. ReactJS
+ - Component
+ - JSX
+ - Map(), Prop
