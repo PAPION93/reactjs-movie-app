@@ -4,6 +4,7 @@
 > 2020-01-11 추가작성  
 > 2020-01-13 시작예정  
 
+# 시작 전
 ## 1. 계기
   - 나는 퇴근하고 그분과 함께 무엇을 먹으면 좋을지 생각이 나지 않는다.
   - 미리 생각안하고 계획없다고 혼이 난다.
@@ -14,8 +15,8 @@
 ## 2. 사용기술
   - Front-end : React
   - Back-end : Spring boot
-  - AWS 
-  - Docker
+  - AWS
+  - 도커라이징
   - 네이버 클라우드 플랫폼 Maps
   - 사실 모든것이 처음이다. 이번 토이프로젝트로 사용해보고 싶었던 기술을 모두 건드려보기만해도 핵이득.
 
@@ -41,24 +42,27 @@
 
   - 부가 기능
     - 음식점 평가 기능
-    - 일일 검색 순위
+    - 일일 검색 순위  
 
-# ReactJS 준비물
-1. 세팅
- - [node.js 설치](https://nodejs.org/ko/)(npm)
- - npx 설치(npm install npx -g)
- - Git
- - VScode
+---  
 
-2. 생성 및 실행
- - `npx create-react-app tell-me-what-u-want`
- - In VScode `Open Folder`
- - `npm start`
+# 시작
+## 1. ReactJS 
+1.0. 세팅
+  - [node.js 설치](https://nodejs.org/ko/) (npm)
+  - npx 설치(npm install npx -g)
+  - Git 준비
+  - VScode 사용
 
- - `git init`
- - `git remote add`
+1.1. 생성 및 실행
+  - `npx create-react-app tell-me-what-u-want`
+  - In VScode `Open Folder`
+  - `npm start`
+  - `git init`
+  - `git remote add`
 
-3. ReactJS
- - Component
- - JSX
- - Map(), Prop
+1.2. ReactJS
+  - Virtual DOM
+  - Component
+  - JSX
+  - Map(), Prop
