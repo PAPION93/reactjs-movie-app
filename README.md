@@ -58,8 +58,6 @@
   - `npx create-react-app tell-me-what-u-want`
   - In VScode `Open Folder`
   - `npm start`
-  - `git init`
-  - `git remote add`
 
 1.2. ReactJS
   - Virtual DOM
