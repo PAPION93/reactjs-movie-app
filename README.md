@@ -82,4 +82,4 @@
     -   `npm i axios`
 -   router
     -   `npm install react-router-dom`
--   redux - state save
+-   redux (state save)
