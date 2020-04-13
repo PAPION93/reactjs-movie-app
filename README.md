@@ -80,3 +80,6 @@
     -   `npm i prop-types`
 -   axios API 요청
     -   `npm i axios`
+-   router
+    -   `npm install react-router-dom`
+-   redux - state save
